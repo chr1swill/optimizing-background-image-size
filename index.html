@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Optimized assets</title>
+	</head>
+	<body>
+		<style>
+			body {
+				width: 100%;
+				height: 100%;
+				display: grid;
+				place-content: center;
+				background-image: url("./test-2.svg");
+				background-repeat: repeat;
+				--gap-horizontally: 73.4px;
+				--gap-vertically: 1.52px;
+				background-size: calc(184px + var(--gap-horizontally))
+					calc(180px + var(--gap-vertically));
+			}
+		</style>
+		<h1><em>Content Words</em></h1>
+	</body>
+</html>
